@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".insertActivity">
+
+    <EditText
+        android:id="@+id/bid"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="30sp"
+        android:ems="10"
+        android:hint="Book id"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/bname"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:hint="Book Name"
+        android:layout_marginLeft="40sp"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:layout_marginLeft="40sp"
+        android:hint="Author Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pyear"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:layout_marginLeft="40sp"
+        android:hint="Publication Year"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phouse"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="40sp"
+        android:ems="10"
+        android:hint="Publishing House"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="40sp"
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/isbn"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:layout_marginLeft="40sp"
+        android:hint="Book ISBN Number"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/copies"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="40sp"
+        android:ems="10"
+        android:hint="Number of Copies"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/insertbtn"
+        android:layout_width="320dp"
+        android:layout_marginLeft="40sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="Insert"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"/>
+</LinearLayout>

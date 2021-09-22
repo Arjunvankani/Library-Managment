@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="never"
+        android:id="@+id/insert"
+        android:title="Insert Data"></item>
+    <item app:showAsAction="never"
+        android:id="@+id/Upadate"
+        android:title="Update Data"></item>
+    <item app:showAsAction="never"
+        android:id="@+id/delete"
+        android:title="Delete Data"></item>
+    <item app:showAsAction="never"
+        android:id="@+id/display"
+        android:title="Display Data"></item>
+</menu>
